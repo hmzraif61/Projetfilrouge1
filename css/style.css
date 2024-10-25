@@ -1,9 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 
-/* Style de base du body */
+/* Styles pour le titre 1 */
+#Titre1 {
+    color: white; /* Couleur du texte */
+    margin: 0px;
+    width: 80vw; /* Largeur de 80% de la vue */
+    margin: auto; /* Centrage */
+    font-weight: bold;
+}
+
+/* Style du body */
 body {
     background-color: #041821; /* Couleur d'arrière-plan */
+}
+
+/* Styles pour le titre 2 */
+#Titre2 {
+    color: rgb(23, 213, 154); /* Couleur du texte */
+    margin: 0px;
+    width: 80vw; /* Largeur de 80% de la vue */
+    margin: auto; /* Centrage */
+    font-weight: bold;
 }
 
 /* Styles pour les sections */
@@ -15,23 +33,6 @@ section {
     margin-top: 3%; /* Marge supérieure */
 }
 
-/* Styles pour Titre1 */
-#Titre1 {
-    color: white; /* Couleur du texte */
-    margin: 0px;
-    width: 80vw; /* Largeur de 80% de la vue */
-    margin: auto; /* Centrage */
-    font-weight: bold;
-}
-
-/* Styles pour Titre2 */
-#Titre2 {
-    color: rgb(23, 213, 154); /* Couleur du texte */
-    margin: 0px;
-    width: 80vw; /* Largeur de 80% de la vue */
-    margin: auto; /* Centrage */
-    font-weight: bold;
-}
 
 /* Styles pour le texte descriptif */
 #texte1 {
@@ -41,11 +42,6 @@ section {
     margin-left: 9%; ; /* Centrage */
     margin-top: 2%; /* Marge supérieure */
     padding: 4px; /* Padding */
-}
-
-/* Styles pour le point dans le nom */
-#points {
-    color: rgb(23, 213, 154); /* Couleur du point */
 }
 
 /* Styles pour la grille d'images */
@@ -64,6 +60,10 @@ section {
     text-align: center; /* Centre le texte */
 }
 
+/* Styles pour le point dans le nom */
+#points {
+    color: rgb(23, 213, 154); /* Couleur du point */
+}
 /* Styles pour le premier div du header */
 #div1 {
     padding-left: 12px; /* Padding à gauche */
@@ -78,6 +78,12 @@ header div p {
     font-size: 25px; /* Taille de la police */
 }
 
+/* Styles pour les icônes du second div */
+#div2 i {
+    margin-left: 25px; /* Marge à gauche entre les icônes */
+    color: white; /* Couleur des icônes */
+}
+
 /* Styles pour le second div du header */
 #div2 {
     padding: 8px; /* Padding */
@@ -85,12 +91,6 @@ header div p {
     width: 50%; /* Largeur de 50% */
     margin-top: auto;
     margin-bottom: auto;
-}
-
-/* Styles pour les icônes du second div */
-#div2 i {
-    margin-left: 25px; /* Marge à gauche entre les icônes */
-    color: white; /* Couleur des icônes */
 }
 
 /* Styles pour la liste non ordonnée */
@@ -113,18 +113,18 @@ header div p {
     display: block; /* Affichage en bloc */
 }
 
-/* Styles pour le fond vert de l'élément de liste */
-#vert-back {
-    background-color: rgb(23, 213, 154); /* Couleur de fond */
-    padding: 5px; /* Padding */
-}
-
 /* Styles pour le footer */
 footer {
     color: white; /* Couleur du texte */
     text-align: center; /* Centre le texte */
     padding: 16px; /* Padding */
     font-size: 20px; /* Taille de la police */
+}
+
+/* Styles pour le fond vert de l'élément de liste */
+#vert-back {
+    background-color: rgb(23, 213, 154); /* Couleur de fond */
+    padding: 5px; /* Padding */
 }
 
 /* Styles pour le texte dans le footer */
