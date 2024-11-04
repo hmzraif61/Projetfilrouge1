@@ -10,7 +10,7 @@
     font-weight: bold;
 }
 
-/* Style du body */
+/* Style body */
 body {
     background-color: #041821; /* Couleur d'arrière-plan */
 }
@@ -26,19 +26,19 @@ body {
 
 /* Styles pour les sections */
 section {
-    font-family: "Yeseva One", serif; /* Police utilisée pour les sections */
+    font-family: "Yeseva One", serif; /* Police utilisée */
     font-weight: 400;
     font-style: normal;
-    font-size: 50px; /* Taille de la police */
+    font-size: 50px; /* Taille police */
     margin-top: 3%; /* Marge supérieure */
 }
 
 
 /* Styles pour le texte descriptif */
 #texte1 {
-    color: grey; /* Couleur du texte */
-    font-size: 18px; /* Taille de la police */
-    width: 50%; /* Largeur de 80% de la vue */
+    color: grey; /* Couleur texte */
+    font-size: 18px; /* Taille police */
+    width: 50%; /* Largeur de 50% */
     margin-left: 9%; ; /* Centrage */
     margin-top: 2%; /* Marge supérieure */
     padding: 4px; /* Padding */
@@ -46,7 +46,7 @@ section {
 
 /* Styles pour la grille d'images */
 .grid-container {
-    display: grid; /* Utilisation de grid pour la disposition */
+    display: grid; /* Utilisation de grid pour disposition */
     padding: 5px;
 }
 
@@ -73,9 +73,9 @@ section {
 
 /* Styles pour le texte dans le header */
 header div p {
-    color: white; /* Couleur du texte */
-    font-family: "Yeseva One", sans-serif; /* Police du texte */
-    font-size: 25px; /* Taille de la police */
+    color: white; /* Couleur texte */
+    font-family: "Yeseva One", sans-serif; /* Police texte */
+    font-size: 25px; /* Taille de police */
 }
 
 /* Styles pour les icônes du second div */
@@ -96,13 +96,13 @@ header div p {
 /* Styles pour la liste non ordonnée */
 #ul1 {
     display: flex; /* Flexbox pour l'alignement */
-    padding: 0px; /* Pas de padding */
-    margin: 0px; /* Pas de marge */
+    padding: 0px; /* 0 padding */
+    margin: 0px; /* 0 marge */
     padding-top: 5px;
     margin-right: auto;
     margin-left: auto; /* Centrage */
     justify-content: center; /* Centrage des éléments */
-    color: white; /* Couleur du texte */
+    color: white; /* Couleur texte */
     font-family: "Monteserat", sans-serif;
 }
 
@@ -115,28 +115,28 @@ header div p {
 
 /* Styles pour le footer */
 footer {
-    color: white; /* Couleur du texte */
-    text-align: center; /* Centre le texte */
+    color: white; /* Couleur texte */
+    text-align: center; /* Centre texte */
     padding: 16px; /* Padding */
-    font-size: 20px; /* Taille de la police */
+    font-size: 20px; /* Taille police */
 }
 
 /* Styles pour le fond vert de l'élément de liste */
 #vert-back {
-    background-color: rgb(23, 213, 154); /* Couleur de fond */
+    background-color: rgb(23, 213, 154); /* Couleur fond */
     padding: 5px; /* Padding */
 }
 
 /* Styles pour le texte dans le footer */
 footer #footer {
-    color: white; /* Couleur du texte */
-    font-size: 15px; /* Taille de la police */
+    color: white; /* Couleur texte */
+    font-size: 15px; /* Taille police */
     text-align: center; /* Centre le texte */
 }
 
 /* Styles pour les images dans la grid-container */
 .grid-container img {
-    width: 98%; /* Largeur à 100% */
+    width: 98%; /* Largeur à 98% */
     height: auto; /* Hauteur automatique */
     display: block; /* Affichage en bloc */
     padding: 5px;
